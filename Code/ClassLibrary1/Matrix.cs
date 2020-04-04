@@ -951,11 +951,11 @@ namespace ClassLibrary1
         { }
 
         public Row(int length, double default_value)
-            : base(length, default_value, true)
+            : base(length, default_value, false)
         { }
 
         public Row(double[] array)
-            : base(array)
+            : base(array, false)
         { }
 
         public Row(double[,] array)
@@ -993,10 +993,9 @@ namespace ClassLibrary1
         public void MultMat(Row mat)
         { return; }
 
-        // TODO use override instead of new
         new public double MultMat(Column mat)
         {
-            return base.MultMat(mat)[0];
+            return this.MultMat((Matrix)mat)[0];
         }
 
         new public Row MultMat(Matrix mat)
