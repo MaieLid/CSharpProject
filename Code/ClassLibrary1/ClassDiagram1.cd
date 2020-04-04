@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibrary1.Asset">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Strategy">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.DeltaHedge">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAhAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeltaHedge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Backtest">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAABAAAARAkAAIEAASAAQAABAAAAAQCBAEQAA=</HashCode>
+      <FileName>Backtest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Instrument">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQICAAACAAAAAADAAAAACAAAAAoQAAACAAA=</HashCode>
+      <FileName>Instrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary1.Portfolio">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABBIAAEAACAAgAAAIAgBgQAAAAQAIAAAAQAAAACCE=</HashCode>
+      <FileName>Portfolio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
